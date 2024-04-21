@@ -13,9 +13,12 @@
 # Ignore all JENKINS_HOME except jobs directory, root xml config, and
 # .gitignore file.
 /*
+!/scripts
 !/jobs
 !/.gitignore
 !/*.xml
+
+!Dockerfile
 
 # Ignore all files in jobs subdirectories except for folders.
 # Note: git doesn't track folders, only file content.
